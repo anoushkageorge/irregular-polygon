@@ -1,7 +1,7 @@
 import java.awt.geom.*; // for Point2D.Double
 import java.util.ArrayList; // for ArrayList
 
-import gpdraw.*; // drawintool
+import gpdraw.*; // 
 
 public class IrregularPolygon {
     private ArrayList<Point2D.Double> vertices = new ArrayList<>();
