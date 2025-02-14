@@ -28,7 +28,7 @@ public class IrregularPolygon {
 
     // area using shoe theorem
     public double area() {
-        if (vertices.size() < 3) return 0.0; //3 points
+        if (vertices.size() < 3) return 0.0; //3 pts
         double sum1 = 0.0, sum2 = 0.0;
         for (int i = 0; i < vertices.size(); i++) {
             Point2D.Double current = vertices.get(i);
